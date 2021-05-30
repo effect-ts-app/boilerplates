@@ -1,4 +1,4 @@
-import { UserSVC } from "@/services"
+import * as T from "@effect-ts/core/Effect"
 import {
   Get,
   Model,
@@ -7,7 +7,8 @@ import {
   prop,
 } from "@effect-ts-app/core/ext/Schema"
 import { handle } from "@effect-ts-app/infra/app"
-import * as T from "@effect-ts/core/Effect"
+
+import { UserSVC } from "@/services"
 
 @namedC
 export class FindLoggedInSample extends Get("/logged-in/:id")<FindLoggedInSample>()({

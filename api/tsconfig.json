@@ -9,8 +9,12 @@
         "paths": {
             "@/*": [
                 "./*"
-            ]
+              ],
+              "@": [
+                "./"
+              ]
         },
+        "rootDir": "./",
         "target": "es2020",
         "noErrorTruncation": true,
         "noEmit": true,

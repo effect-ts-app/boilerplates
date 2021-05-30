@@ -1,6 +1,6 @@
+import * as T from "@effect-ts/core/Effect"
 import { Get, namedC } from "@effect-ts-app/core/ext/Schema"
 import { handle } from "@effect-ts-app/infra/app"
-import * as T from "@effect-ts/core/Effect"
 
 @namedC
 export class AllSample extends Get("/")<AllSample>()() {}
