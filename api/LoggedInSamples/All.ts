@@ -1,11 +1,5 @@
 import * as T from "@effect-ts/core/Effect"
-import {
-  Get,
-  Model,
-  namedC,
-  nonEmptyString,
-  prop,
-} from "@effect-ts-app/core/Schema"
+import { Get, Model, namedC, nonEmptyString, prop } from "@effect-ts-app/core/Schema"
 import { handle } from "@effect-ts-app/infra/app"
 
 import { UserSVC } from "@/services"
