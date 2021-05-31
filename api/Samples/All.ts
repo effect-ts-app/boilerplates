@@ -1,5 +1,5 @@
 import * as T from "@effect-ts/core/Effect"
-import { Get, namedC } from "@effect-ts-app/core/ext/Schema"
+import { Get, namedC } from "@effect-ts-app/core/Schema"
 import { handle } from "@effect-ts-app/infra/app"
 
 @namedC

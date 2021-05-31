@@ -5,7 +5,7 @@ import {
   namedC,
   nonEmptyString,
   prop,
-} from "@effect-ts-app/core/ext/Schema"
+} from "@effect-ts-app/core/Schema"
 import { handle } from "@effect-ts-app/infra/app"
 
 @namedC
