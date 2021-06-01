@@ -17,7 +17,7 @@ const program = pipe(
       console.log(`Running on ${cfg.HOST}:${cfg.PORT}`)
     })
   ),
-  T.tap(() => T.never)
+  T.zipRight(T.never)
 )
 
 pipe(
