@@ -2,12 +2,7 @@
     "typescript.tsdk": "./node_modules/typescript/lib",
     "typescript.tsserver.experimental.enableProjectDiagnostics": true,
     "eslint.workingDirectories": [
-        {
-            "pattern": "apps/*"
-        },
-        {
-            "pattern": "packages/*"
-        }
+        "./api"
     ],
     "editor.formatOnSave": true,
     "eslint.format.enable": true,
