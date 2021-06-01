@@ -12,11 +12,7 @@ export class Response extends Model<Response>()({
 }) {}
 
 export default handle({ Request: FindSample, Response })((_) =>
-  T.gen(function* ($) {
-    return yield* $(
-      T.succeed({
-        id: _.id,
-      })
-    )
+  T.succeed({
+    id: _.id,
   })
 )
