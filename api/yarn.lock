@@ -396,10 +396,10 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@effect-ts-app/core@^0.15.2":
-  version "0.15.2"
-  resolved "https://registry.yarnpkg.com/@effect-ts-app/core/-/core-0.15.2.tgz#ed9da913596a7d2dfa1648a77f38012d7698a9b2"
-  integrity sha512-70/Lrcc3awmx6o/RyyciBm2AkS66vtwMl5wNE3b1WxalPIcwass29xS8wvisvPAhEJU14OcSyjn2B6UiOn3f2A==
+"@effect-ts-app/core@^0.15.3":
+  version "0.15.3"
+  resolved "https://registry.yarnpkg.com/@effect-ts-app/core/-/core-0.15.3.tgz#ce27626d59961de491bff25ea19b55d62f264f65"
+  integrity sha512-drwXh5bCFuzdGTiBMhTxq4lQUlCKcgvGL2CzcUQ/vvFUogjDpU4mXnOzxVFrOobcT3czLsb5aNoBQWwObQXi6g==
   dependencies:
     abort-controller "^3.0.0"
     cross-fetch "^3.1.4"
@@ -408,12 +408,12 @@
     uuid "^8.3.2"
     validator "^13.6.0"
 
-"@effect-ts-app/infra@^0.15.2":
-  version "0.15.2"
-  resolved "https://registry.yarnpkg.com/@effect-ts-app/infra/-/infra-0.15.2.tgz#a906b10dbe079986c7131df5965ad7b75de1b29c"
-  integrity sha512-MGUU2o7Jy5g5w0Kw+OT1MvnM+3DUXreTLjKmOjX7gzUyb/CkqCXUFlu7HhhmILPuH02TF7vyfYohSRVVqbHdig==
+"@effect-ts-app/infra@^0.15.3":
+  version "0.15.3"
+  resolved "https://registry.yarnpkg.com/@effect-ts-app/infra/-/infra-0.15.3.tgz#8cda96c8f4ebde3b97b41aee2c76e03a14d41ccb"
+  integrity sha512-rwQQHZV+M9KHmkomgDcEn54NTaFXgv8V35ramIsGkW9HmTQhcUs04KyR8vSAHoEOaijEdMqnjSt5b+0lc6SOfQ==
   dependencies:
-    "@effect-ts-app/core" "^0.15.2"
+    "@effect-ts-app/core" "^0.15.3"
     proper-lockfile "^4.1.2"
     query-string "^7.0.0"
     winston "^3.3.3"

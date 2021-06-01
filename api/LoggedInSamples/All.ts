@@ -1,10 +1,10 @@
 import * as T from "@effect-ts/core/Effect"
-import { Get, Model, namedC, nonEmptyString, prop } from "@effect-ts-app/core/Schema"
+import { Get, Model, useClassNameForSchema, nonEmptyString, prop } from "@effect-ts-app/core/Schema"
 import { handle } from "@effect-ts-app/infra/app"
 
 import { UserSVC } from "@/services"
 
-@namedC
+@useClassNameForSchema
 export class AllLoggedInSample extends Get("/logged-in")<AllLoggedInSample>()() {}
 
 export class Response extends Model<Response>()({
